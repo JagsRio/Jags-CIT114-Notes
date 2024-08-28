@@ -1,4 +1,4 @@
-#### Cloud Concept Overview
+# Cloud Concept Overview
 What is cloud computing?
 Cloud computing is the on-demand delivery of computer power, memory required, database, storage, applications and other IT resources via the internet with pay-as-you-go pricing
 
