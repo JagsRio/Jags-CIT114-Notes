@@ -1,3 +1,4 @@
+### Cloud Concept Overview
 What is cloud computing?
 Cloud computing is the on-demand delivery of computer power, memory required, database, storage, applications and other IT resources via the internet with pay-as-you-go pricing
 
@@ -10,6 +11,7 @@ Capital Expense vs Variable Expense
 Massive economics of scale : because of aggregate usage from all customers. - Got it wrong in knowledge check
 Stop guessing capacity
 Increase speed and agility
+
 Remove costs for running and maintaining datacenters
 Go global in minutes
 
