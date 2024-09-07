@@ -7,25 +7,20 @@
 + AWS Billing and Cost Mgmt
 + Technical Support
 
-> After completing the module you should be able to explain and recognize AWS pricing philosophy, indicate elements of total cost of ownership, know how to set up organizational structure and permissions and be able to explain the AWS billing dashboard Anf also explain the Technical Support and levels of suuport available for the customers
+*After completing the module you should be able to explain and recognize AWS pricing philosophy, indicate elements of total cost of ownership, know how to set up organizational structure and permissions and be able to explain the AWS billing dashboard Anf also explain the Technical Support and levels of suuport available for the customers*
 
-## The top 3 services provided by AWS for the billing purposes are: ##
+## The top 3 main services driving the cost for AWS billing: ##
 + ### Compute ###
 + ### Storage ###
 + ### Data transfer outbound - no cost for inbound data transfer ###
 
-Same philosophy -
-Pay as you go
-Pay less when you reserve
-Pay even less when AWS grows
 
-Pay only for services that you consume with no large upfront expenses
-All services are available on demand
+### _AWS had maintained the same philosophy : Pay as you go, Pay less when you reserve, Pay even less when AWS grows. Pay only for services that you consume with no large upfront expenses and all services are available on demand_ ###
 
-AWS Storage Services offers pricing depending on the frequency of the data access.
-
-AWS focuses on lowering costs and improving operational efficiencies
-Future high performing resources replace current slower resources for no extra charge
+### Benefits of AWS ###
++ AWS Storage Services offers pricing depending on the frequency of the data access.
++ AWS focuses on lowering costs and improving operational efficiencies
++ Future high performing resources replace current slower resources for no extra charge
 
 free for 1 year
 ec2 T2 micro
