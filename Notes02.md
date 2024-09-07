@@ -1,20 +1,18 @@
 # Cloud Economics and Billing
 
-Fundamentals of pricing
-TCO
-AWS organizations
-AWS Billing and Cost Mgmt
-Technical Support
+### The topics covered in this module: ###
++ Fundamentals of pricing
++ Total Cost of Ownership (TCO)
++ AWS organizations
++ AWS Billing and Cost Mgmt
++ Technical Support
 
-Explain and recognize AWS pricing philosophy
-Indicate elements of total cost of ownership
-Set up organizational structure.
-AWS Billing Dashboard
+> After completing the module you should be able to explain and recognize AWS pricing philosophy, indicate elements of total cost of ownership, know how to set up organizational structure and permissions and be able to explain the AWS billing dashboard Anf also explain the Technical Support and levels of suuport available for the customers
 
-
-Compute
-Storage
-Data transfer - no cost for inbound data transfer
+## The top 3 services provided by AWS for the billing purposes are: ##
++ ### Compute ###
++ ### Storage ###
++ ### Data transfer outbound - no cost for inbound data transfer ###
 
 Same philosophy -
 Pay as you go
