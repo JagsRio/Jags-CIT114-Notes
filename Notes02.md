@@ -96,3 +96,5 @@ For certain services like Amazon EC2 and Amazon RDS, you can invest in reserved 
 1. All Upfront Reserved Instance (AURI)
 2. Partial Upfront Reserved Instance (PURI)
 3. No Upfront Reserved Instance (NURI)
+
+> In 2015, market research firm IDC undertook a study of 10 companies. At a high level, the findings were extremely positive: “On average, IDC calculates that these Amazon customers will capture five-year business benefits worth over $1.5 million per application they are running in the AWS environment, and earn a return on their investment in AWS of 560 percent.” The total cost of ownership for AWS proved to be some 64 percent lower.
