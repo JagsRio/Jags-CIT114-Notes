@@ -6,6 +6,7 @@
 + Edge locations
 + AWS Services & Service Categories
 
+> [!IMPORTANT]
 >  _AWS Global Infrastructure is designed and built to deliver a flexible, reliable, scalable and secure cloud computing environment with high-quality global network performance._
 
 
@@ -21,25 +22,27 @@
 5. It typically consists of 2 or more Availability Zones
 6. Regions may have restricted access
 
-Selecting Regions 
-Data governance & legal requirements
-Proximity to customers
-Some services may not be available
-Costs may vary by Region
+### Criteria for Selecting Regions 
++ Data governance & legal requirements
++ Proximity to customers
++ Some services may not be available
++ Costs may vary by Region
 
-Availability Zones (AZ)
-Each Region has multiple Availability Zones
-Each AZ is a fully isolated partition of the AWS Infrastructure
-AZ consist of discrete data centers typically at least 3
-AZs are designed for fault isolation
-AZs are connected among themselves using high-speed private networking
-AWS recommends replication data and resources across AZs for resiliency
-AZs have their own power infrastructure and physically separated from other AZs by several kilometers.
-All AZs in a Regions are within 100 kilometers of each other.
-Customer can only choose AZ - choosing Data Center is not allowed to keep the location of actual data center unknown and secure.
+## Availability Zones (AZ)
+### Each Region has multiple Availability Zones
+1. Each AZ is a fully isolated partition of the AWS Infrastructure
+2. AZ consist of discrete data centers typically at least 3
+3. AZs are designed for fault isolation
+4. AZs are connected among themselves using high-speed private networking
+5. AWS recommends replication data and resources across AZs for resiliency
+6. AZs have their own power infrastructure and physically separated from other AZs by several kilometers.
+7. All AZs in a Regions are within 100 kilometers of each other.
+
+> [!Note]
+> Customer can only choose AZ - choosing Data Center is not allowed to keep the location of actual data center unknown and secure.
 
 
-Data Centers
+## Data Centers
 AWS data centers are designed for security
 Data centers house all the data and it is where the data processing occurs.
 Each data center has redundant power, networking, connectivity and is housed in a separate facility
