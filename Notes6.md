@@ -52,49 +52,50 @@ What I should know:
 Instance Types | a1, m4, m5, t2, t3 | c4, c5 | r4, r5, x1, z1 | f1, g3, g4, p2, p3 | d2, h1, i3
 Use Case | Broad | High Performance | In-memory databases | Machine Learning | Distrubuted file Systems
 
-Network settings
-Identify the VPC and optionally the subnet
-Should a public IP Address be automatically assigned?
+### Network settings
++ Identify the VPC and optionally the subnet
++ Should a public IP Address be automatically assigned?
 
-IAM Role
-Attach an appropriate IAM Role if the EC2 needs to interact with other AWS Services.
+### IAM Role
++ Attach an appropriate IAM Role if the EC2 needs to interact with other AWS Services.
++ Attaching an IAM role to EC2 instance creates a EC2 Instance Profile
 
-User data
-User data scripts to customize the runtime environment of the instance.
+### User data
++ User data scripts to customize the runtime environment of the instance.
 
-Stoage options
-Configure root volume
-Attach additional storage volumes
-Storage options
-Elastic Block Store
-	Durable block-level storage volumes
-	Data will be available after stopping and starting the instance.
-EC2 Instance Store
-	Storage is provided on disk attached to the host computer of EC Instance.
-	Data is lost after instance stops
-Elastice File System and Simple Storage Service are other options for storage.
+### Stoage options
++ Configure root volume
++ Attach additional storage volumes
++ Storage options
+	+ Elastic Block Store
+		+ Durable block-level storage volumes
+		+ Data will be available after stopping and starting the instance.
+	+ EC2 Instance Store
+		+ Storage is provided on disk attached to the host computer of EC Instance.
+		+ Data is lost after instance stops
+	+ Elastice File System and Simple Storage Service are other options for storage.
 
-Tags
-Tag is a label assigned to AWS resource consisting of key and value.
-It is a way to attach metadata to an EC instance
-Helps in Filtering, automation, cost allocation and access control
+### Tags
++ Tag is a label assigned to AWS resource consisting of key and value.
++ It is a way to attach metadata to an EC instance
++ Helps in Filtering, automation, cost allocation and access control
 
-Security Groups
-Security group is a set of firewall rules that control traffic to the instance.
-It exists outside the instance's guest OS
-Create rules and specify source and which ports to allow communications.
+### Security Groups
++ Security group is a set of firewall rules that control traffic to the instance.
++ It exists outside the instance's guest OS
++ Create rules and specify source and which ports to allow communications.
 
-Key pair
-A key pair consists of a public key and a private key
-It enables secure connections to the instance
-Windows AMI - use the private key to obtain the administrator password that you need to log in to your instance
-Linux AMI - use the private key to use SSH to securely connect to your instance.
+### Key pair
++ A key pair consists of a public key and a private key
++ It enables secure connections to the instance
++ Windows AMI - use the private key to obtain the administrator password that you need to log in to your instance
++ inux AMI - use the private key to use SSH to securely connect to your instance.
 
-Every AWS account is allocated 5 elastic IP addresses
-Instance metadata 
-Amazon CloudWatch to monitor EC2 instances
-	Basis monitoring - No cost and data sent every 5 minutes
-	Detailed monitoring - Fixed monthly for 7 pre-selected metrics and sent every 1 minute
+> Every AWS account is allocated 5 elastic IP addresses
+> Instance metadata 
+> Amazon CloudWatch to monitor EC2 instances
+	+ Basis monitoring - No cost and data sent every 5 minutes
+	+ Detailed monitoring - Fixed monthly for 7 pre-selected metrics and sent every 1 minute
 
 EC2 Cost Optinmization
 On-Demand Instances
