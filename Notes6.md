@@ -129,3 +129,12 @@ Dependencies |
 Configurations | 
 Hooks into OS |
 
+## Docker
+### Docker is a software platform to build, test and deploy applications quickly
+### Containers are run on Docker
+
+### Containers have everything a software needs to run : 
++ Libraries
++ System Tools
++ Code
++ Runtime
