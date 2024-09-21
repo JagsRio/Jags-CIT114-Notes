@@ -1,12 +1,14 @@
+# Amazon Compute Services
 What I should know:
-Overview of different AWS Compute services in the cloud
-Why to use Amazon Elastic Compute Cloud
-Functionality in the EC2 Console
-Perform basic functions in EC2 to build virtual computing environment.
-Identify EC2 Cost optimization
-When to use AWS Elastic Beanstalk
-When to use AWS Lambda
-How to run containerized applications in a cluster of managerd servers.
+
+## Overview of different AWS Compute services in the cloud
++ Why to use Amazon Elastic Compute Cloud
++ Functionality in the EC2 Console
++ Perform basic functions in EC2 to build virtual computing environment.
++ Identify EC2 Cost optimization
++ When to use AWS Elastic Beanstalk
++ When to use AWS Lambda
++ How to run containerized applications in a cluster of managerd servers.
 
 AWS Compute Services
 EC2 - provides resizable virtual machines
