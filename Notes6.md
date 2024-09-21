@@ -22,11 +22,11 @@ What I should know:
 9. Many more...
 
 ## What to consider when using compute services:
-What is the application design
-What are the usage patterns
-Which configuration settings you want to manage
++ **What is the application design?**
++ **What are the usage patterns?**
++ **Which configuration settings you want to manage?**
 
-Key choices when launching EC2 wizard:
+## Key choices when launching EC2 wizard:
 1. AMI
 2. Instance Typpe
 3. Network settings
@@ -37,17 +37,18 @@ Key choices when launching EC2 wizard:
 8. Security group
 9. Key pair
 
-AMI
-Amazon Machine Image is a template used to create an EC Instance (Windows or Linux)
+### AMI
++ Amazon Machine Image is a template used to create an EC Instance (Windows or Linux)
 
-Instance Type
-Memory
-CPU
-Disk Space
-Network performance
-offers family, generation number, size
+### Instance Type
++ Memory
++ CPU
++ Disk Space
++ Network performance
++ Offers family, generation number, size (t3.large - t is family name, 3 is generation and large is size)
 
-types/purpose | General Purpose | Computer Optimized | Memory Optimized | Accelerated Computing | Storage Optimized
+ Types/Purpose | General Purpose | Computer Optimized | Memory Optimized | Accelerated Computing | Storage Optimized
+---------- | ------- | ---------- | ----------- | -------- | -------- | 
 Instance Types | a1, m4, m5, t2, t3 | c4, c5 | r4, r5, x1, z1 | f1, g3, g4, p2, p3 | d2, h1, i3
 Use Case | Broad | High Performance | In-memory databases | Machine Learning | Distrubuted file Systems
 
