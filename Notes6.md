@@ -96,8 +96,8 @@ Use Case | Broad | High Performance | In-memory databases | Machine Learning | D
 
 > [!Note]
 > Amazon CloudWatch to monitor EC2 instances
-	+ Basis monitoring - No cost and data sent every 5 minutes
-	+ Detailed monitoring - Fixed monthly for 7 pre-selected metrics and sent every 1 minute
++ Basis monitoring - No cost and data sent every 5 minutes
++ Detailed monitoring - Fixed monthly for 7 pre-selected metrics and sent every 1 minute
 
 ## EC2 Cost Optinmization
 + **On-Demand Instances**
@@ -138,3 +138,61 @@ Hooks into OS |
 + System Tools
 + Code
 + Runtime
+
+## Amazon Elastic Container Service (Amazon ECS)
++ A highly scalable, fast, container management service
++ Orchestrates the running of Docker containers
++ Maintains and scales the EC2 instances that run your containers
++ Removes the complexity of managing the infrastructure
++ Integrates with :
+	+ Elastic Load Balancing
+	+ Amazon EC2 security groups
+	+ Amazon EBS volumes
+	+ IAM Roles
+
+## What is Kubernetes?
+It is an open source software for container orchestration
+Deploy and manage containerized applications at scale
+Complements Docker
++ Docket enables you to run multiple containers on a single OS Host
+	+ Kubernetes can manage multiple Docker hosts
+Automates
++ Container provisioning
++ Networking
++ Load distrubution
++ Scaling
+
+
+## Amazon Elastic Kubernetes Service (Amazon EKS)
++ Enables you to run Kubernetes on AWS
++ Certified Kubernetes conformant
++ Supports Linux and Windows containers
++ Compatible with Kubernetes community tools
+
+You can use Amazon EKS to:
+1. Manage clusters of Amazon EC2 computer instances
+2. Run containers that are managed by Kubernetes on these instances
+
+## Amazon Elastic Container Registry (Amazon ECR)
+Amazon ECR is a fully managed Docker container registry which makes it easy for developers to store, manage and deploy Docker container images
+**It supports:**
++ Amazon ECS integration
++ Docker support
++ Team collaboration
++ Access control
++ Third-party integrations
+
+## AWS Lambda
+AWS Lambda is a serverless computer service.
+Process of Lambda:
+1. You create a Lambda function which is the AWS resource that contains the code you want to run
+2. Set the Lambda function to be triggered on a schedule or event
+3. Your code runs only when it is triggered
+4. You pay only for the compute time that you use.
+
+Benefits of Lambda
++ Supports multiple programming languages
++ Completely automated administration
++ Has built-in fault tolerance
++ Orchestration of multiple functions by building workflows with ASW Step Functions
++ Pay-per-use pricing
