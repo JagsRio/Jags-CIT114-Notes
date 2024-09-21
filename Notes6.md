@@ -10,16 +10,18 @@ What I should know:
 + When to use AWS Lambda
 + How to run containerized applications in a cluster of managerd servers.
 
-AWS Compute Services
-EC2 - provides resizable virtual machines
-EC2 Auto Scaling - Application availablity
-ECR Elastic Container Registry is used to store and retrieve Docker images
-ECS Elastic Container Service is a container orchestration service that supports Docker
-VMWare - Hybrid Cloud
-AWS Elastic Beanstalk - provides a simple way to run and manage web applications
-Lambda - serverless compute solution and you pay only for compute time you consume
-Elastic Kubernetes Service - run managed Kubernetes on AWS
-What to consider when using compute services:
+## AWS Compute Services
+1. EC2 - provides resizable virtual machines
+2. EC2 Auto Scaling - Application availablity
+3. ECR Elastic Container Registry is used to store and retrieve Docker images
+4. ECS Elastic Container Service is a container orchestration service that supports Docker
+5. VMWare - Hybrid Cloud
+6. AWS Elastic Beanstalk - provides a simple way to run and manage web applications
+7. Lambda - serverless compute solution and you pay only for compute time you consume
+8. Elastic Kubernetes Service - run managed Kubernetes on AWS
+9. Many more...
+
+## What to consider when using compute services:
 What is the application design
 What are the usage patterns
 Which configuration settings you want to manage
