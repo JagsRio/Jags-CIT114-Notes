@@ -91,24 +91,41 @@ Use Case | Broad | High Performance | In-memory databases | Machine Learning | D
 + Windows AMI - use the private key to obtain the administrator password that you need to log in to your instance
 + inux AMI - use the private key to use SSH to securely connect to your instance.
 
+> [!Note]
 > Every AWS account is allocated 5 elastic IP addresses
-> Instance metadata 
+
+> [!Note]
 > Amazon CloudWatch to monitor EC2 instances
 	+ Basis monitoring - No cost and data sent every 5 minutes
 	+ Detailed monitoring - Fixed monthly for 7 pre-selected metrics and sent every 1 minute
 
-EC2 Cost Optinmization
-On-Demand Instances
-Dedicated Hosts
-Dedicated Instances
-Reserved Instances
-Scheduled Reserved Instances
-Spot Instances
+## EC2 Cost Optinmization
++ **On-Demand Instances**
++ **Dedicated Hosts**
++ **Dedicated Instances**
++ **Reserved Instances**
++ **Scheduled Reserved Instances**
++ **Spot Instances**
 
-Four pillars of cost optimization
-Right size
-Increase elasticity
-Optimal pricing model
-Optimize storage choices
+## Four pillars of cost optimization
+1. Right size
+2. Increase elasticity
+3. Optimal pricing model
+4. Optimize storage choices
 
+## Container Services
+### Containers are a method of operating system virtualization
+
+## Benefits
++ Repeatable
++ Self-Contained environments
++ Software runs the same in laptop, test or production environments
++ Faster to launch and stop or terminate than virtual machines
+
+Your Container |
+----------|
+Your Application |
+Dependencies |
+Configurations | 
+Hooks into OS |
 
