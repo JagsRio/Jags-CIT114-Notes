@@ -1,39 +1,40 @@
-Networking and Content Delivery
+# Networking and Content Delivery
 
-Topics
-Networking basics
-Amazon VPC (Virtual Private Cloud)
-VPC networking
-VPC security
-Amazon Route 53
-Amazon CloudFront
+### Topics in networking & content delivery
+1. Networking basics
+2. Amazon VPC (Virtual Private Cloud)
+3. VPC networking
+4. VPC security
+5. Amazon Route 53
+6. Amazon CloudFront
 
-Basic Networking
-A computer network is two or more machines that are connected together in order to communicate.
-Networking can be logically divided into subnets.
-Networking requires a networking device like a router or switch
+## Networking
+### Basic Networking
++ A computer network is two or more machines that are connected together in order to communicate.
++ Networking can be logically divided into subnets.
++ Networking requires a networking device like a router or switch
 
-IP (Internet Protocal) Address
-It is unique
-Expressed as four decimal numbers separated by dots
-Each number has 8 bits (0 to 255)
-Combined total of the four numbers is 32 bits in binary format
-32 bit address is called IPv4 
-IPv6 addresses also exist and use 128 bits.
-IPv6 address is composed of eight groups of 4 letters and numbers separated by colons.
-Each group has 16 bits (o to ffff)
+### IP (Internet Protocal) Address
++ It is unique
++ Expressed as four decimal numbers separated by dots
++ Each number has 8 bits (0 to 255)
++ Combined total of the four numbers is 32 bits in binary format
++ 32 bit address is called IPv4 
++ IPv6 addresses also exist and use 128 bits.
++ IPv6 address is composed of eight groups of 4 letters and numbers separated by colons.
++ Each group has 16 bits (o to ffff)
 
-Classless Inter-Domain Routing (CIDR)
+### Classless Inter-Domain Routing (CIDR)
 192.0.2.0/24
 24 represents how many bits are fixed
 192.0.0.[0 to 255]
 CIDR is a way to express a group of IP addresses that consecutive to each other.
 
-OSI Model (7 layers)
-Layer | Number | Function | Protocol/Address
---------- | ----------- | ---------------------------|
-Application | 7 | Means for an application to access a netwrk | HTTP(S), FTP,DHCP, LDAP
-Presentaion | 6 | Ensures that the application layer can read & encryption | ASCI, ICA
+## OSI Model (7 layers)
+| Layer | Number | Function | Protocol/Address |
+| --------- | ----------- | ------------------ | ---------------------------|
+Application | 7 | Means for an application to access a netwrk | HTTP(S), FTP,DHCP, LDAP |
+Presentaion | 6 | Ensures that the application layer can read & encryption | ASCI, ICA |
 Session | 5 | Enables orderly exchange of data | NetBIOS, RPC
 Transport | 4 | Provides protocols to support host-to-host communication | TCP, UDP
 Network | 3 | Routing and packet forwarding (routers) | IP
