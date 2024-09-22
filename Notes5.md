@@ -106,7 +106,7 @@ CIDR Block 10.0.0.0/24 | Reserved for |
 > A subnet can be associated with only one route table at a time, but you can associate multiple subnets to the same route table. Subnets and route table have a one-to-one mapping even though you can map one route table to multiple subnets.
 
 ## VPC Security
-**Security Groups**
+### Security Groups
 + A security group acts as a virtual firewall that controls inbound and outbound traffic, to and from your instance.
 + Security groups acts at the instance level, at the network interface card.
 + Assign each instance in your VPC to a different set of security groups.
@@ -119,18 +119,22 @@ CIDR Block 10.0.0.0/24 | Reserved for |
 
 **__The outbound traffic is always allowed__**
 
-**Network Access Control lists (Network ACLs)**
+### Network Access Control lists (Network ACLs)
 + Network ACLs act at the subnet level
 + Setup ACLs with rules that allow or deny
 + Additionally you can specify ports and protocols
 
-Each subnet in your VPC must be associated with a network ACL
-ACL has separae inbound and outbound rules. 
-Each rule can either allow or deny traffic
-Default ACLs allow all inbound and outbound IPv4 traffic
-Network ACLs are stateless.
+**__Each subnet in your VPC must be associated with a network ACL__**
 
-Security Groups versus Network ACLs
+**__ACL has separae inbound and outbound rules. __**
+
+**__Each rule can either allow or deny traffic__**
+
+**__Default ACLs allow all inbound and outbound IPv4 traffic__**
+
+**__Network ACLs are stateless.__**
+
+## Security Groups versus Network ACLs
 Attribute | Security Groups | Network ACLs |
 -------------- | ----------- | ------------------------ | 
 Scope  | Instance level | Subnet level | 
@@ -138,11 +142,10 @@ Supported rules | Allow rules only | Allow and deny rules |
 State | Stateful (return traffic is automatically allowed) | Stateless (return traffic must be explicitly allowed by rules) | 
 Order of Rules | All rules are evaluated before decision to allow traffic | Rules are evaluated in number order before decision to allow traffic
 
-Amazon Route 53
-Domain Name System
-DNS resolution is the process of translating an internal name to the corresponding IP address
+## Amazon Route 53
+**__DNS resolution is the process of translating an internal name to the corresponding IP address__**
 
-Route 53:
+### Route 53:
 + Highly available and scalable DNS web service
 + Fully compliant with IPv4 and IPv6
 + Connects user requests to infrastructure running in AWS and also outside of AWS
@@ -150,17 +153,17 @@ Route 53:
 + Features traffic flow
 + Allows you to register domain names
 
-Route 53 supported routing
-Simple routing - single-server environment
-Weighted routing - Assign weights to resource record sets to specify frequency
-Latency routing - Improve your global applications
-Geolocation routing - Route traffic based on location of your users
-Geoproximity routing - Route traffic based on location of your resources
-Failover routing - Fail over to a backup site if your primary site becomes unreachable.
-Multivalue answer routing - Respond to DNS queries with up to eight healthy records selected at random.
+### Route 53 supported routing
+1. Simple routing - single-server environment
+2. Weighted routing - Assign weights to resource record sets to specify frequency
+3. Latency routing - Improve your global applications
+4. Geolocation routing - Route traffic based on location of your users
+5. Geoproximity routing - Route traffic based on location of your resources
+6. Failover routing - Fail over to a backup site if your primary site becomes unreachable.
+7. Multivalue answer routing - Respond to DNS queries with up to eight healthy records selected at random.
 
-Amazon CloudFront
-Fast, global and secure CDN service
-Global network of edge locations and Regional edge caches
-Self-service model
-Pay-as-you-go pricing
+## Amazon CloudFront
++ Fast, global and secure CDN service
++ Global network of edge locations and Regional edge caches
++ Self-service model
++ Pay-as-you-go pricing
