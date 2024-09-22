@@ -111,28 +111,28 @@ CIDR Block 10.0.0.0/24 | Reserved for |
 + Security groups acts at the instance level, at the network interface card.
 + Assign each instance in your VPC to a different set of security groups.
 
-**__Security groups have rules to manage instance traffic__**
+***Security groups have rules to manage instance traffic***
 
-**__By default, security groups are sealed shut to inbound traffic.__**
+***By default, security groups are sealed shut to inbound traffic.***
 
-**__Security groups are stateful__**
+***Security groups are stateful***
 
-**__The outbound traffic is always allowed__**
+***The outbound traffic is always allowed***
 
 ### Network Access Control lists (Network ACLs)
 + Network ACLs act at the subnet level
 + Setup ACLs with rules that allow or deny
 + Additionally you can specify ports and protocols
 
-**__Each subnet in your VPC must be associated with a network ACL__**
+***Each subnet in your VPC must be associated with a network ACL***
 
-**__ACL has separae inbound and outbound rules. __**
+***ACL has separae inbound and outbound rules.***
 
-**__Each rule can either allow or deny traffic__**
+***Each rule can either allow or deny traffic***
 
-**__Default ACLs allow all inbound and outbound IPv4 traffic__**
+***Default ACLs allow all inbound and outbound IPv4 traffic***
 
-**__Network ACLs are stateless.__**
+***Network ACLs are stateless.***
 
 ## Security Groups versus Network ACLs
 Attribute | Security Groups | Network ACLs |
