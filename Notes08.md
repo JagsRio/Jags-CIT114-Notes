@@ -1,51 +1,52 @@
-Databases
+# Databases
 
-Databases offered by Amazon
-Amazon Relational Database Service (RDS)
-Amazon DynamoDB
-Amazon Redshift
-Amazon Aurora
+### Databases offered by Amazon
+1. Amazon Relational Database Service (RDS)
+2. Amazon DynamoDB
+3. Amazon Redshift
+4. Amazon Aurora
 
-Unmanaged 
-Scaling, fault tolerance and availability are managed by you
+> [!Note]
+> Unmanaged - Scaling, fault tolerance and availability are managed by you
 
-Managed
-Scaling, fault tolerance and availability are typically built into the service
+> [!Note]
+> Managed - Scaling, fault tolerance and availability are typically built into the service
 
-Challenges of relational databases
-Server maintenance and energy footprint
-Software installation and patches
-Database backups and high availability
-Limits on scalability
-Data Security
-OS installation and patches
+## Challenges of relational databases
++ Server maintenance and energy footprint
++ Software installation and patches
++ Database backups and high availability
++ Limits on scalability
++ Data Security
++ OS installation and patches
 
-Amazon RDS
-Pick DB Instance Class
-Pick DB Instance Storage
-Pick Database Engine
-Supported Engines:
-	MySQL
-	Amazon Aurora
-	MS SQL Server
-	PostgresSQL
-	MariaDB
-	Oracle
+## Amazon RDS
+1. Pick DB Instance Class
+2. Pick DB Instance Storage
+3. Pick Database Engine
+4. Supported Engines:
+	+ MySQL
+	+ Amazon Aurora
+	+ MS SQL Server
+	+ PostgresSQL
+	+ MariaDB
+	+ Oracle
 
-Amazon RDS can be deployed in a multi-AZs for high availability
-It automatically generates a standby copy of the db instance in another availability zone within the same VPC
-After initial seeding of the database copy, transactions are synchronously replicated to the standby copy
-In event of failure of the primary AZ, Amazon automatically brings the standby DB instance online as the main instance.
-Since applications reference the DB by name using the DNS domain endpoint, you dont need to change anything in your application code to use the standby copy.
+### Advantages of Amazon RDS
++ Amazon RDS can be deployed in a multi-AZs for high availability
++ It automatically generates a standby copy of the db instance in another availability zone within the same VPC
++ After initial seeding of the database copy, transactions are synchronously replicated to the standby copy
++ In event of failure of the primary AZ, Amazon automatically brings the standby DB instance online as the main instance.
++ Since applications reference the DB by name using the DNS domain endpoint, you dont need to change anything in your application code to use the standby copy.
 
-Amazon RDS also supports the creation of read replicas for MySQL, MariaDB, PostgresSQL and Amazon Aurora.
-	Offers asynchronous replication
-	Can be promoted to master if needed.
-	Use for read-heavy database workloads
-	Offload read queries
+### Amazon RDS also supports the creation of read replicas for MySQL, MariaDB, PostgresSQL and Amazon Aurora.
++ Offers asynchronous replication
++ Can be promoted to master if needed.
++ Use for read-heavy database workloads
++ Offload read queries
 
 
-When to use Amazon RDS
+### When to use Amazon RDS
 | Use Amazon RDS when you require | Do not use Amazon RDS when you require |
 | -------------------------------- | -------------------------------------- |
 | Complex transactions or complex queries | Massive read/write rates |
