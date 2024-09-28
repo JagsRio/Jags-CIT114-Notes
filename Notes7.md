@@ -1,6 +1,7 @@
 # Storage
 
 ## Amazon Elastic Block Store
+> [!Note]
 > Persistent storage is any data storage device that retains data after power to that device is shut off and also called non-volatile storage
 
 + Each EBS volume is automatically replicated within its availablity zone to protect you from component failure.
@@ -83,10 +84,10 @@ Amazon EBS allows you to __create individual storage volumes__ and attach them t
 	+ Good for regulated industries like financial, healthcare and public sectors
 
 ## Amazon Elastic File System (Amazon EFS)
-> [Note!]
+> [!Note]
 > EFS implements storage for multiple EC2 instances that can access the storage at the same time.
 
-EFS Features
+### EFS Features
 + File storage in the AWS Cloud
 + Works well for big data and analytics, media and content management, web serving
 + Petabyte-scale, low latency system
@@ -95,7 +96,7 @@ EFS Features
 + Supports Network File System (NFS) 
 + Compatible with all linux-based AMIs for EC2
 
-EFS implementation steps
+### EFS implementation steps
 1. Create your EC2 resources and launch your EC2 instance
 2. Create your EFS file system
 3. Create your mount targets in the appropriae subnets
@@ -103,14 +104,14 @@ EFS implementation steps
 5. Verify the resources and protection of your AWS account
 
 
-Amazon S3 Glacier
-S3 Glacier is a secure, durable and extremely low-cost service for data archiving and long-term backup.
+## Amazon S3 Glacier
+### S3 Glacier is a secure, durable and extremely low-cost service for data archiving and long-term backup.
 + S3 Glacier is designed to provide 11 9s of durability for objects
 + Supports encryption of data in transit and at rest through Secure Socket Layer (SSL) or Transport Layer Security (TLS)
 + Vault locak feature enforces compliance through a policy
 + Extremely low-cost design works well for long-term archiving
 
-Retrivel options:
+### Retrivel options:
 + Expedited : 1-5 minutes (Most expensive)
 + Standard : 3-5 hours (Less expensive)
 + Bulk : 5-12 hours (Least expensive)
