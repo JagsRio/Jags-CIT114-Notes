@@ -1,17 +1,17 @@
-Storage
+# Storage
 
-Amazon Elastic Block Store
-Persistent storage is any data storage device that retains data after power to that device is shut off and also called non-volatile storage
+## Amazon Elastic Block Store
+> Persistent storage is any data storage device that retains data after power to that device is shut off and also called non-volatile storage
 
-Each EBS volume is automatically replicaed within its availablity zone to protect you from component failure.
-Designed for high availability and durability
-EBS is also high scalable so you can scale up or down within minutes while paying a low price for only what you provision.
++ Each EBS volume is automatically replicated within its availablity zone to protect you from component failure.
++ Designed for high availability and durability
++ EBS is also high scalable so you can scale up or down within minutes while paying a low price for only what you provision.
 
 | Block storage | object storage |
 | ---------------- | -------------- |
 Change one block (piece of file) | Entire file must be updated |
 
-Amazon EBS allows you to __create individual storage volumes_ and attach them to EC2 instances.
+Amazon EBS allows you to __create individual storage volumes__ and attach them to EC2 instances.
 + Offers block-level storage
 + Volumes are automatically replicated within its AZ
 + It can be backed up automatically to Amazon S3 by way of snapshots
@@ -22,34 +22,34 @@ Amazon EBS allows you to __create individual storage volumes_ and attach them to
 	+ Database hosts
 	+ Enterprise applications
 
-Volume types
-Solid State Drives (SSD)
+### Volume types
+**Solid State Drives (SSD)**
 | x/y | General Purpose | Provisioned IOPS |
 | -------------------- | --------------- | ----------------- |
 | Max Volume Size | 16 TiB | 16 TiB |
 | Max IOPS/Volume | 16,000 | 64,000 |
 | Max throughput/Vol | 250 MiB/s | 1000 MiB/s |
 
-Hard Disk Drives (HDD)
+**Hard Disk Drives (HDD)**
 | x/y | General Purpose | Provisioned IOPS |
 | -------------------- | --------------- | ----------------- |
 | Max Volume Size | 16 TiB | 16 TiB |
 | Max IOPS/Volume | 500 | 250 |
 | Max throughput/Vol | 500 MiB/s | 250 MiB/s |
 
-Snapshots:
+### Snapshots:
 + Point-in-time snapshots
 + Recreate a new volume at any time
 
-Encryption:
+### Encryption:
 + Encrypted EBS volumes
 + No additional cost
 
-Elasticity:
+### Elasticity:
 + Increase capacity
 + Change to different types
 
-Amazon Simple Storage Service (S3)
+## Amazon Simple Storage Service (S3)
 + Object level storage
 + Data is stored as objects in buckets
 + Virtually unlimited storage
@@ -60,30 +60,31 @@ Amazon Simple Storage Service (S3)
 + Server-side encryption allows you to encrypt data at rest and in transit
 + Notifications on modification or deletion and linking to Lamda functions
 
-Amazon S3 storage classes
-Storage classes designed for different use cases
-1. Amazon S3 standard
+### Amazon S3 storage classes
+**Storage classes designed for different use cases**
+1. **Amazon S3 standard**
 	+ Designed for high availability, high durability and performance for frequently accessed data
 	+ Low latency and high throughput
-2. Amazon S3 Intelligent-Tiering
+2. **Amazon S3 Intelligent-Tiering**
 	+ Designed for data that is accessed less frequently but provides rapid access when needed
-3. Amazon S3 Standard-Infrequent Access
+3. **Amazon S3 Standard-Infrequent Access**
 	+ Designed for high durability, high throughut and low latency of S3 standard with a low per gigabyte storage and retrieval fee
 	+ Useful for long-term storage and backups and datastore for disaster recovery files.
-4. Amazon S3 One Zone-Infrequent Access
+4. **Amazon S3 One Zone-Infrequent Access**
 	+ Designed for data that is accessed less frequently but provides rapid access when needed
 	+ Stored in a single AZ
 	+ Good choice for storing secondary backup copies
-5. Amazon S3 Glacier
+5. **Amazon S3 Glacier**
 	+ Secure and durable low cost storage class for data archiving
 	+ 3 options to retrieve objects from minutes to hours
-6. Amazon S3 Glacier Deep Archive
+6. **Amazon S3 Glacier Deep Archive**
 	+ Lowest cost storage class
 	+ Long-term retention and digital preservation for data accessed once or twice a year
 	+ Good for regulated industries like financial, healthcare and public sectors
 
-Amazon Elastic File System (Amazon EFS)
-EFS implements storage for multiple EC2 instances that can access the storage at the same time.
+## Amazon Elastic File System (Amazon EFS)
+> [Note!]
+> EFS implements storage for multiple EC2 instances that can access the storage at the same time.
 
 EFS Features
 + File storage in the AWS Cloud
