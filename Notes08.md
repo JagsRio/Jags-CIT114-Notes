@@ -54,18 +54,19 @@
 | No more than a single worker node or shard | Simple GET or PUT requests and queries that a NoSQL Database can handle | 
 | High Durability | RDBMS Customization |
 
-Amazon DynamoDB
-DynamoDB is a non-relational database
 
-Relational DB versus Non-relational DB
-| x/y | Relational (SQL) | Non-relational (NoSQL) |
+## Amazon DynamoDB
+> ***DynamoDB is a non-relational database***
+
+### Relational DB versus Non-relational DB
+| / | Relational (SQL) | Non-relational (NoSQL) |
 | ---------------- | ------------------------ | ---------------- |
 | Data Storage | Rows and Column | Key-value, document, graph |
 | Schemas | Fixed | Dynamic |
 | Querying | Uses SQL | Focuses on collection of documents |
 | Scalanility | Vertical | Horizontal |
 
-What is DynamoDB
+### What is DynamoDB
 + Fast and flexible NoSQL database service
 + NoSQL database tables
 + Items can have differing attributes
@@ -73,29 +74,29 @@ What is DynamoDB
 + Scalable read/write throughput
 + All data is stored in Solid State Drives (SSD)
 
-Amazon Redshift
-Redshift is a fast, fully managed data warehouse that makes it simple and cost-effective to analyze all your data by using standard SQL along with your existing business intelligence tools
+## Amazon Redshift
+> ***Redshift is a fast, fully managed data warehouse that makes it simple and cost-effective to analyze all your data by using standard SQL along with your existing business intelligence tools***
 
-Redshift use cases
-+ Enterprise Data Warehouse (EDW)
+### Redshift use cases
++ **Enterprise Data Warehouse (EDW)**
 	+ Migrate at a pace that customers are comfortable with
 	+ Experiment without large upfront cost or commitment
 	+ Respond faster to business needs
-+ Big Data
++ **Big Data**
 	+ Low price point for small customers
 	+ Managed service for ease of deployment and maintenance
 	+ Focus more on data and less on database management
-+ Software as a Service (SaaS)
++ **Software as a Service (SaaS)**
 	+ Scale the data warehouse capacity as demand grows
 	+ Add analytic functionality to applications
 	+ Reduce hardware and software costs
 
-Amazon Aurora
+## Amazon Aurora
 + Enterprise-class relational database
 + Compatible with MySQL or PostgreSQL
 + Automate time-consuming tasks
 
-Aurora service benefits
+### Aurora service benefits
 + Fast and available
 + Simple
 + Compatible
@@ -104,7 +105,7 @@ Aurora service benefits
 + Works seamlessly with AWS Database Migration Service
 + Works with AWS Schema Conversion Tool
 
-Why use Aurora
+### Why use Aurora
 + High availability
 + Stores multiple copies of your data across different AZs
 + Data is backed up continuously to S3
