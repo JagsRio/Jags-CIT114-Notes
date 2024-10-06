@@ -1,36 +1,30 @@
-Cloud Architecture
+# Cloud Architecture
 
-AWS Well-Architected Framework
+## AWS Well-Architected Framework
 AWS Well-Architected Framework provides a consistent set of best practice for customers to evaluate architectures, and also provides a set of questions to evaluate the architecture and its alignment to AWS's best practices.
 
-Six Pillars of AWS Well-Architected Framework
+## Six Pillars of AWS Well-Architected Framework
 | Name | Description |
-|-----------------|----------------|
-Operational Excellence | The ability to support development and run 
-workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver 
-business value. |
+|------------------------------|-------------------------|
+Operational Excellence | The ability to support development and run workloads effectively, gain insight into their operations, and to continuously improve supporting processes and procedures to deliver business value. 
 Security | The security pillar describes how to take advantage of cloud technologies to protect data, systems, and assets in a way that can improve your security posture |
 Reliability | The reliability pillar encompasses the ability of a workload to perform its intended function correctly and consistently when it’s expected to |
-Performance Efficiency | The ability to use computing resources efficiently to meet system requirements, and to maintain 
-that efficiency as demand changes and technologies evolve
-Cost Optimization | The ability to run systems to deliver business 
-value at the lowest price point
-Sustainability | The ability to continually improve sustainability 
-impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the 
-provisioned resources and minimizing the total resources required
+Performance Efficiency | The ability to use computing resources efficiently to meet system requirements, and to maintain that efficiency as demand changes and technologies evolve
+Cost Optimization | The ability to run systems to deliver business value at the lowest price point
+Sustainability | The ability to continually improve sustainability impacts by reducing energy consumption and increasing efficiency across all components of a workload by maximizing the benefits from the provisioned resources and minimizing the total resources required
 
-Common terms
+### Common terms
 + Component
 + Workload
 + Architecture
 + Milestones
 + Technology portfolio
 
-"Everything Fails, all the time." - Werner Vogels, CTO, Amazon.com
+> "Everything Fails, all the time." - Werner Vogels, CTO, Amazon.com
 
-“Good intentions never work, you need good mechanisms to make anything happen” — Jeff Bezos. 
+> “Good intentions never work, you need good mechanisms to make anything happen” — Jeff Bezos. 
 
-General Design Principles
+## General Design Principles
 + Stop guessing your capacity needs
 + Test systems at production scale
 + Automate to make architectural experimentation easier
@@ -39,9 +33,9 @@ General Design Principles
 + Improve through game days
 
 
-Six pillars of Framework
-1. Operational Excellence
-+ Desgign Principles
+## Six pillars of Framework
+### 1. Operational Excellence
++ Design Principles
 	+ Perform operations as code
 	+ Make frequent, small reversible changes
 	+ Refine operations procedures frequently
@@ -53,7 +47,7 @@ Six pillars of Framework
 	+ Operate
 	+ Evolve
 
-2. Security
+### 2. Security
 + Design Principles
 	+ Implement a strong identity foundatin
 	+ Enable traceability
@@ -72,7 +66,7 @@ Six pillars of Framework
 	+ Incident Response 
 
 
-3. Reliability
+### 3. Reliability
 + Design Principles
 	+ Automatically recover from failure
 	+ Test recovery procedures
@@ -87,7 +81,7 @@ Six pillars of Framework
 	+ Failure Management
 
 
-4. Performance Efficiency
+### 4. Performance Efficiency
 + Design Principles
 	+ Democratize advanced technologies
 	+ Go global in minutes
@@ -102,7 +96,7 @@ Six pillars of Framework
 	+ Tradeoffs
 
 
-5. Cost Optimization
+### 5. Cost Optimization
 + Design Principles
 	+ Implement Cloud Financial Management
 	+ Adopt a consumption model
@@ -118,7 +112,7 @@ Six pillars of Framework
 	+ Optimize over time 
 
 
-6. Sustainability
+### 6. Sustainability
 + Design Principles
 	+ Understand your impact
 	+ Establish sustainability goals
